@@ -1,0 +1,19 @@
+/* Tipografía global para El Chiringuito de Lukas */
+:root {
+  --font-body: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-headings: 'Fraunces', Georgia, serif;
+}
+
+body,
+.v-application {
+  font-family: var(--font-body) !important;
+}
+
+/* Encabezados y títulos con Fraunces */
+h1, h2, h3, h4, h5, h6,
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6,
+.v-card-title,
+.v-toolbar-title,
+.v-app-bar-title {
+  font-family: var(--font-headings) !important;
+}
